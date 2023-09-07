@@ -25,3 +25,13 @@ variable "access_key" {
   type        = string
   description = "The access key for your application"
 }
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  type        = string
+  description = "The secret key for your application"
+}
+
+variable "AWS_ACCESS_KEY_ID " {
+  type        = string
+  description = "The access key for your application"
+}
