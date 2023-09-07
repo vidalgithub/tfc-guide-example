@@ -16,3 +16,12 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "secret_key" {
+  type        = string
+  description = "The secret key for your application"
+}
+
+variable "access_key" {
+  type        = string
+  description = "The access key for your application"
+}
